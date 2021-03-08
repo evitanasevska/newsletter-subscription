@@ -59,4 +59,16 @@ body {
 form .mt-5 {
   margin-top: 16px !important;
 }
+
+.my-btn {
+  background-color: #E576C6;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.my-btn:hover {
+  background-color: #d867b8;
+}
 /*# sourceMappingURL=style.css.map */
