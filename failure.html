@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oops.</title>
+    <title>Oops 🥲</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,22 +16,36 @@
         body {
             background-color: #e8d6ff;
         }
+        
         .jumbotron {
             text-align: center;
             background-color: #e8d6ff;
         }
+
         h1 {
             margin: 0;
+            color: #E576C6;
         }
+
         img {
             padding: 20px;
             border-radius: 50px;
         }
+
+        .btn-primary {
+            background-color: #E576C6;
+            border: #E576C6;
+        }
+
+        .btn-primary:hover {
+            background-color: #d867b8;
+        }
+
     </style>
 
     <div class="jumbotron">
         <h1>UH OH...</h1>
-        <img src="https://media.giphy.com/media/CZGcUfnAy3ayJw2eZX/giphy.gif" alt="" width="600px">
+        <img class="img-fluid" src="https://media.giphy.com/media/CZGcUfnAy3ayJw2eZX/giphy.gif" alt="" width="600px">
         <p>There was a problem with processing your request, please try again!</p>
         <form action="/failure" method="post">
             <button class = "btn btn-md btn-primary"type="submit">Try Again</button>
