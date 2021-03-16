@@ -45,10 +45,10 @@ app.post("/", function(req,res){
     const jsonData = JSON.stringify(data)
 
     //post data to Mailchimp
-    const url = "https://us1.api.mailchimp.com/3.0/lists/5f11c53985"
+    const url = "xxxxx"
     const options = {
         method: "POST",
-        auth: "evitaaa:e6bf656ed66bed4baa6ef938f63a1e89-us1"
+        auth: "xxxxx"
     }
     //req has to be saved as a const so we can write jsonData with it
     const request = https.request(url, options, function(response){
@@ -71,6 +71,3 @@ app.post("/", function(req,res){
 app.post("/failure", function(req, res){
     res.redirect("/")
 })
-
-// API KEY: e6bf656ed66bed4baa6ef938f63a1e89-us1
-// LIST ID: 5f11c53985
